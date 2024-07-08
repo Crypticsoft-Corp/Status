@@ -54,6 +54,11 @@
             border-left: 10px solid #28a745;
             border-radius: 10px;
         }
+        .status.info {
+            border-left: 10px solid gray;
+            border-radius: 10px;
+            border-left: 10px solid grey;
+        }
         .status-title {
             font-size: 18px;
             font-weight: bold;
@@ -92,7 +97,6 @@
             width: 15px;
             height: 25px;
             background: linear-gradient(to bottom, yellow, orange);
-            
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             font-weight: bold;
@@ -139,6 +143,17 @@
                 <div class="part"></div>
             </div>
         </div>
+        
+        <div class="status info">
+            <div class="status-title">Info</div>
+          <div class="bars">
+              <p>
+                  <div class="bar">A green bar means that everything is working normally.</div>
+                  <div class="down">A red bar means that everything isn't working.</div>
+                  <div class="part">A yellow bar mesns that everything is partially working.</div>
+              </p>
+          </div>
     </div>
+            
 </body>
 </html>
