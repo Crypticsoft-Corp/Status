@@ -69,8 +69,8 @@
 
         /* .bar is for green bar */
         .bar {
-            width: 5px;
-            height: 25px;
+            width: 10px;
+            height: 50px;
             background-color: #28a745;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -78,11 +78,17 @@
 
         /* .down is for red bar */
         .down {
-            width: 5px;
-            height: 25px;
+            width: 10px;
+            height: 50px;
             background-color: #28a745;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (min-width: 1024px) {
+            * {
+                font-size: 175%;
+            }
         }
     </style>
 </head>
@@ -92,11 +98,11 @@
             <h1>Programmer Gang Status Page</h1>
         </div>
     </header>
-
+<h2 style="color: gray; color: grey;">Last 30 days</h2>
     <div class="container main">
         <div class="status up">
-            <div class="status-title">Website</div>
-            <div class="status-description">All systems <p style="color: green;">operational.</p></div>
+            <div class="status-title">MyTube</div>
+            <div class="status-description"><p>All systems <p style="color: green;">operational.</p></p></div>
             <div class="bars">
                 <div class="bar"></div>
                 <div class="bar"></div>
@@ -118,7 +124,7 @@
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
-                <div class="bar"></div>
+                <div class="down"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
