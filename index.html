@@ -170,7 +170,6 @@
             transition: background-color 0.3s ease; /* Smooth transition */
             }
         </style>
-        <link rel="stylesheet" href="styles.css">
             <button onclick="changeFontSize()">Enable Grandma Mode</button>
     <script>
         function changeFontSize() {
@@ -178,6 +177,8 @@
             var style = document.getElementById('dynamic-style');
             style.innerHTML = '* { font-size: 175% !important; }';
             style.innerHTML = 'button { display: none !important; }';
+            style.innerHTML = '* { font-family: noto-sans !important; }';
+            style.innerHTML = '* { font-weight: bold; !important; }';
         
         }
     </script>
