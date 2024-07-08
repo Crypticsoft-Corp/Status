@@ -42,6 +42,7 @@
             background: #fff;
             margin-top: 20px;
             min-height: 500px;
+            border-radius: 10px;
         }
         .status {
             margin: 20px 0;
@@ -51,6 +52,7 @@
         }
         .status.up {
             border-left: 10px solid #28a745;
+            border-radius: 10px;
         }
         .status-title {
             font-size: 18px;
@@ -64,9 +66,20 @@
             gap: 10px;
             margin-top: 10px;
         }
+
+        /* .bar is for green bar */
         .bar {
-            width: 10px;
-            height: 50px;
+            width: 5px;
+            height: 25px;
+            background-color: #28a745;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* .down is for red bar */
+        .down {
+            width: 5px;
+            height: 25px;
             background-color: #28a745;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -83,8 +96,27 @@
     <div class="container main">
         <div class="status up">
             <div class="status-title">Website</div>
-            <div class="status-description">All systems operational.</div>
+            <div class="status-description">All systems <p style="color: green;">operational.</p></div>
             <div class="bars">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
